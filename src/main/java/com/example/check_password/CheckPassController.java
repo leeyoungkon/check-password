@@ -11,7 +11,7 @@ public class CheckPassController {
 
 	private static final String VALID_PASSWORD = "1234";
 
-	@GetMapping("/check-password")
+	@GetMapping("/check-password") 
 	@ResponseBody
 	public String passwordForm() {
 		return """
