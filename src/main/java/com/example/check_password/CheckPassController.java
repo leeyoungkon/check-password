@@ -32,7 +32,7 @@ public class CheckPassController {
 	@ResponseBody
 	public String checkPassword(@RequestParam("password") String password) {
 		if (VALID_PASSWORD.equals(password)) {
-			return "패스워드 검증되었음";
+			return "패스워드가 정상";
 		}
 		return "패스워드가 올바르지 않습니다.";
 	}
