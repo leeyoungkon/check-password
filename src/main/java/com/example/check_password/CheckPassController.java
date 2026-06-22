@@ -36,4 +36,4 @@ public class CheckPassController {
 		}
 		return "패스워드가 올바르지 않습니다.";
 	}
-} //Change
+} //Change the password
