@@ -35,5 +35,5 @@ public class CheckPassController {
 			return "패스워드 검증되었음";
 		}
 		return "패스워드가 올바르지 않습니다.";
-	}
+	} //CAM 1 test
 }
