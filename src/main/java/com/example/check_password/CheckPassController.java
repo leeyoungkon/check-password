@@ -36,4 +36,4 @@ public class CheckPassController {  //temp
 		}
 		return "Password is incorrect.";
 	} //CAM 1 test
-}
+}	//MT-2 commit
